@@ -18,8 +18,7 @@ export default function Cassettes() {
         {cassettes.map(cassette => (
           <div className="card" key={cassette.ID}>
             <img 
-              src={`http://localhost:5000/uploads/${cassette.Photo}`} 
-              alt={cassette.Title} 
+            src={`http://localhost:5000/uploads/${cassette.Photo}`} alt={cassette.Title}
             />
             <h3>{cassette.Title}</h3>
             <p>Автор: {cassette.Artist}</p>
