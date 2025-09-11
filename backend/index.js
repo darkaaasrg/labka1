@@ -15,8 +15,8 @@ app.use(express.json());
 app.use("/uploads", express.static("uploads"));
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",   
+  host: "26.210.121.124",
+  user: "stasnya",   
   password: "Aa20061095!",    
   database: "music_catalog"
 });
