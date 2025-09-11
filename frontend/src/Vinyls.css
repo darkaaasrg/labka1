@@ -1,5 +1,6 @@
 .container {
     padding: 20px;
+    display: flex;
   }
   
   .cards {
@@ -21,7 +22,8 @@
     height: auto;
     border-radius: 5px;
   }
-  h3 {
+
+  h2 {
     text-align: center;
   }
   
