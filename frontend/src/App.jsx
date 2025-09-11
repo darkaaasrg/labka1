@@ -1,5 +1,6 @@
 import Vinyls from "./Vinyls";
 import Cassettes from "./Cassettes";
+import "./index.css"
 
 function App() {
   return (
