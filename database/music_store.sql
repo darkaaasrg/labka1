@@ -3,7 +3,7 @@ USE music_catalog;
 
 CREATE TABLE Vinyls (
 	ID INT AUTO_INCREMENT PRIMARY KEY,
-    Title VARCHAR(150) NOT NULL,
+    Title VARCHAR(15) NOT NULL,
     Artist VARCHAR(100) NOT NULL,
     Published YEAR,
     Genre VARCHAR(50),
